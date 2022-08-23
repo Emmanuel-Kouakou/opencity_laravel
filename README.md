@@ -57,7 +57,17 @@ Models et Controllers sont dans app.
 
 
 --------------------------------------------------------------------------
+### Les directives de blade
 
-- blade : Moteur de template de laravel. Permet d'aficher quelque choge de dynamique ({{ }}).
 
-- 
+- blade : Moteur de template de laravel. Permet d'afficher quelque chose de dynamique ({{ }}).
+
+- Les directives blades commence avec @.
+ 
+- Définition du Layout de base : @yield('content') 
+
+- Hériter du layout de base : @extends('cheminDeLaVueDeBase')
+
+- Mettre une section à l'endroit indiqué : @section('content')  ...  @endsection, on peut aussi fermer ce bloc en mettant @stop.
+
+- https://www.delftstack.com/howto/git/git-lf-will-be-replaced-by-crlf/

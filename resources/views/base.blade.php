@@ -5,17 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home page | Hello city</title>
+    <title>
+        @yield('title')
+    </title>
 
 </head>
 
 <body>
-    <h1> Vous vous trouvez sur la page d'accueil.</h1>
 
-    <p>Il est actuellement {{ date("h:i A"); }}.</p>
+    @yield('content')
 
     <footer>
-        <p>&copy; Copyright {{ date("Y"); }} &middot; <a href="/about">About Us</a></p>
+        <p>&copy; Copyright {{ date("Y"); }} @yield('footer')</p>
     </footer>
 </body>
 
