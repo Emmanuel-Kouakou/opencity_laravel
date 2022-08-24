@@ -86,4 +86,19 @@ Models et Controllers sont dans app.
 
 - Faire appel à la fonction helper asset pour avoir part à un fichier public.
 
--
+
+### Deploiement de l'application
+
+- Création d'un compte heroku
+
+- Installation de heroku CLI
+
+- heroku login : pour se connecter à heroku depuis notre post
+
+- heroku create nomApp : pour créer l'app ou se rendre sur leur site pour le faire
+
+- git remote : en créer notre app sur heroku, il nous crée deux remote, une pour push et une pour fetch
+
+- Créer un fichier : Procfile
+
+- git push heroku main
