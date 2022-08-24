@@ -1,9 +1,8 @@
 @extends('base')
 
 
-@section('title')
-About Us Page | Hello City
-@endsection
+@section('title', 'About Us Page | '. Config('app.title'))
+
 
 @section('content')
 

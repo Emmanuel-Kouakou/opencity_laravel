@@ -12,7 +12,7 @@
 
 - Commettre l'ajout : git commit -m "message"
 
-- Afficher un journal d'op"rations ou de dépôt utilisés.
+- Afficher un journal d'opérations ou de dépôt utilisés : git log
 
 
 ### Structure MVC
@@ -71,3 +71,11 @@ Models et Controllers sont dans app.
 - Mettre une section à l'endroit indiqué : @section('content')  ...  @endsection, on peut aussi fermer ce bloc en mettant @stop.
 
 - https://www.delftstack.com/howto/git/git-lf-will-be-replaced-by-crlf/
+
+- .env contient les variables d'environnement, on peut y accéder en tapant env("clevarenv").
+
+- Les fichiers .env et config sont liés, on peut utilisé config pour accéder aux variables d'environnement.
+
+- Pourquoi config ? Faire en sorte que l'app soit plus rapide que possible. On a la possibilité de créer un fichier de cache qui va nous permettre de rendre rapide la configuration. php artisan config:cache. Après cette commande, la fonction env doit être uniquement utilisé dans le dossier config et non en dehors.
+
+- php artisan config:cache accélère le chargement de notre configuration.
