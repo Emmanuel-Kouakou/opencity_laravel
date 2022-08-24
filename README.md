@@ -83,3 +83,7 @@ Models et Controllers sont dans app.
 - Nous avons la possibilité d'ajouter un nom à nos routes.
 
 - git commit --amends : ajoute la modif au même commit.
+
+- Faire appel à la fonction helper asset pour avoir part à un fichier public.
+
+-

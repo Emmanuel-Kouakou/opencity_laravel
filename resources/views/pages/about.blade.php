@@ -6,7 +6,7 @@
 
 @section('content')
 
-<img src="/img/logo_ivoir.jpg" alt="Logo">
+<img src="{{ asset('img/logo_ivoir.jpg'); }}" alt="Logo">
 
 <p>Page A propos &hearts; !</p>
 

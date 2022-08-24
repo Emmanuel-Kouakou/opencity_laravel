@@ -2,7 +2,7 @@
 
 @section('content')
 
-<img src="/img/drapeau.jpg" alt="drapeau">
+<img src="{{ asset('img/drapeau.jpg'); }}" alt="drapeau">
 
 <h1> Vous vous trouvez sur la page d'accueil.</h1>
 
