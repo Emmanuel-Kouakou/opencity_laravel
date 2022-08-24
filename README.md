@@ -79,3 +79,7 @@ Models et Controllers sont dans app.
 - Pourquoi config ? Faire en sorte que l'app soit plus rapide que possible. On a la possibilité de créer un fichier de cache qui va nous permettre de rendre rapide la configuration. php artisan config:cache. Après cette commande, la fonction env doit être uniquement utilisé dans le dossier config et non en dehors.
 
 - php artisan config:cache accélère le chargement de notre configuration.
+
+- Nous avons la possibilité d'ajouter un nom à nos routes.
+
+-
