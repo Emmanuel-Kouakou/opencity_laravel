@@ -102,3 +102,18 @@ Models et Controllers sont dans app.
 - Créer un fichier : Procfile
 
 - git push heroku main
+
+
+
+- Composer : gestion de dépendances, gestion de paquets au niveau de Laravel.
+
+- Code de sécurité heroku : P9G50A8IA8
+BUBKM1OLX8
+639GJVMS84
+FPRNJ6QY86
+V4AQ36XIAM
+JZIHP6BVD7
+L2YNLYQ1EQ
+KJEO5CDYP8
+XMAGO14PB8
+DZ8CPL7S4I
